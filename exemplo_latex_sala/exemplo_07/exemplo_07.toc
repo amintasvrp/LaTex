@@ -1,0 +1,7 @@
+\select@language {portuges}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {subsection}{\numberline {1.1}Receita de Bolo Baeta}{2}
+\contentsline {subsection}{\numberline {1.2}Ingredientes}{2}
+\contentsline {subsection}{\numberline {1.3}Mode de Fazer}{2}
+\contentsline {section}{\numberline {2}Tabela Nutricional}{2}
+\contentsline {section}{\numberline {3}Demonstra\IeC {\c c}\IeC {\~a}o matematica do Bolo Baeta}{2}
