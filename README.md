@@ -1,3 +1,3 @@
-# LaTex_Skills
+# LaTex
 
-Tutoriais e Tips sobre o uso do LaTex
+Tutoriais sobre o uso da plataforma LaTex
