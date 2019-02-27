@@ -1,0 +1,972 @@
+\documentclass[10pt,twoside,twocolumn]{book}
+\usepackage[bg-letter]{lib/rpg-book} 
+\usepackage[brazil]{babel}
+\usepackage{indentfirst}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{lipsum}
+
+\title{\section*{ORDEM E CAOS: LIVRO DE REGRAS RÁPIDAS}}
+\date{\today}
+\author{Amintas Victor Ramos Pereira}
+
+% Start document
+\begin{document}
+\fontfamily{ppl}\selectfont % Set text font
+\frontmatter
+\maketitle
+\tableofcontents
+
+% Your content goes here
+\mainmatter
+\chapter{Introdução}
+Seja bem-vindo(a) aos RPGs de Mesa ! Neste mundo não tão diferente do nosso (com exceção do convívio com algumas magias, criaturas fantásticas e seres mitológicos), você interpretará um personagem criado por ti próprio.
+\newline
+
+Semelhanças não inevitáveis com os jogos eletrônicos rotulados MMORPGs. No entanto, apesar de também serem uma forma de entreterimento bastante atrativa, os RPGs de Mesa se destacam pela sua flexibilidade (mesmo quando o seu objetivo é justamente participar de uma aventura robusta que obedece rigorosamente as leis da nossa realidade).
+\newline
+
+Vale ressaltar que, independente da história a ser contada, dos personagens, NPCs, inimigos (dos menos perigosos aos mais ameaçadores vilões), o objetivo é a diversão, o escapismo, e a imersão proporcionada pela aventura, tanto aos mestre, quanto aos jogadores.
+\newline
+
+Este livro irá tratar de 3 pontos básicos: a \textbf{construção do seu personagem}, que é o passo primordial para iniciarmos nossa aventura; a forma como se darão as \textbf{partidas ou sessões} e as \textbf{magias e habilidades}, que todo personagem desenvolve ao longo da jornada. O mesmo o fará de forma sucinta e direta, pois a proposta é servir de porta de entrada para jogadores ainda não iniciados, e mestres de primeira viagem.
+\newline
+
+Tendo isso em mente, o que resta àquele que vos fala é uma boa leitura e uma boa aventura.
+\newline
+
+\textit{Amintas Victor, autor deste livro}
+
+\chapter{O Personagem}
+
+Apesar da ordem das etapas de criação do personagem serem bastante flexíveis, recomenda-se o seguinte algoritmo: primeiramente, escolher a raça e a classe, os quais vão deteminar características físicas do personagem; depois, distribuir os valores referentes aos atributos (preenchendo na ficha de personagem); escolher as habilidades, magias, equipamentos e armas iniciais; e por último, mas não menos importante, descrever caracteríscas dos personagens (como alinhamento e patrono)
+
+\section{Atributos}
+Para preencher os atributos \textbf{Força},  \textbf{Destreza}, \textbf{Constituição}, \textbf{Sabedoria}, \textbf{Inteligência} e \textbf{Carisma}, que irão ditar vantagens e desvantagens daquilo que se interpreta, é possível de se utilizar dos seguintes métodos:
+
+\begin{enumerate}
+    \item Método aleatório ou básico: para cada atributo, preencher com valor da soma de \textbf{4d6}, desconsiderando o menor valor;
+    \item Método rápido: preencher os atributos com os valores \textbf{15,14,13,12,10,8};
+    \item Método customizado: todos os atributos começam com \textbf{8}, e \textbf{27} pontos estão a disposição do jogador para comprá-los por \textbf{1} ponto. Mas \textbf{atenção}: atributos maiores do que \textbf{13}, passam a custar \textbf{2} pontos.
+\end{enumerate}
+
+Os valores de habilidades interferem nos testes, adicionando ou descontando um certo valor no dado ao fazer um teste. A tabela a seguir demonstra os valores, do mínimo ao máximo permitido, e seu respectivos modificadores. Considere o valor 10 para um humano comum:
+
+\header{Valores e Modificadores de Atributos}
+\begin{rpg-table}
+  \textbf{Valores de Atributos}  & \textbf{Modificadores de Atributos} \\
+    $00 - 01$ & $-5$          \\
+    $02 - 03$ & $-4$          \\
+    $04 - 05$ & $-3$          \\
+    $06 - 07$ & $-2$          \\
+    $08 - 09$ & $-1$          \\
+    $10 - 11$ & $+0$          \\
+    $12 - 13$ & $+1$          \\
+    $14 - 15$ & $+2$          \\
+    $16 - 17$ & $+3$          \\
+    $18 - 19$ & $+4$          \\
+    $20 - 21$ & $+5$          \\
+\end{rpg-table}
+
+\section{Nível a Nível}
+
+Com o desenvolver da narrativa, seu personagem irá avançar de nível, ganhando pontos que servirão para melhorá-lo.Fica a cargo do mestre analizar o desempenho mecânico e interpretativo dos jogadores e sistematizar a progressão. Esse processo gera benefícios a cada nível que serão determinados da seguinte maneira:
+
+\header{Progressão Geral}
+\begin{rpg-table}[XXX]
+   	\textbf{Nível}  & \textbf{Benefícios} & \textbf{Débitos} \\
+   	 01    & Arco/Ativa I & $1$ PM/STAMINA\\
+     02    & P. de Atributo & $-$\\
+     03    & Arco/Ativa II & $1$ PM/STAMINA\\
+     04    & P. de Atributo & $-$\\
+     05    & Arco/Ativa III & $1$ PM/STAMINA\\
+     06    & Cerne/Passiva I & Sem Gastos\\
+     07    & P. de Atributo & $-$\\
+     08    & Arco/Ativa IV & $2$ PM/STAMINA\\
+     09    & P. de Atributo & $-$\\
+     10    & Arco/Ativa V & $2$ PM/STAMINA\\
+     11    & P. de Atributo & $-$\\
+     12    & Cerne/Passiva II & Sem Gastos\\
+     13    & P. de Atributo & $-$\\
+     14    & Arco/Ativa VI & $3$ PM/STAMINA\\
+     15    & P. de Atributo & $-$\\
+     16    & Arco/Ativa VII & $3$ PM/STAMINA\\
+     17    & P. de Atributo & $-$\\
+     18    & Cerne/Passiva III & Sem Gastos\\
+     19    & P. de Atributo & $-$\\
+     20    & Arco/Ativa VIII & $4$ PM/STAMINA\\
+\end{rpg-table}
+
+\section{Raças}
+
+Dependendo da raça do personagem, serão adicionados ou debitados quantidades aos valores de atributos. Além disso, cada raça possui sua respectiva proeficiência, permitindo o personagem atingir valor de atributo acima dos limites estipulados. Segue em anexo a lista de raças, suas vantagens e desvantagens e suas proeficiências: \\
+
+\header{Raças e seus Modificadores}
+\begin{rpg-table}
+   	\textbf{Raça}  & \textbf{Vantagens e Desvantagens} \\
+    Anão  & CON $+2$, SAB $+1$, DES $-2$. \\
+    Elfo  & DES $+2$, CAR $+1$, CON $-2$. \\
+    Gnomo & INT $+2$, CON $+1$, FOR $-2$. \\
+    Gobling & DES $+2$, CON $+1$, CAR $-2$. \\
+    Halfling & CAR $+2$, DES $+1$, FOR $-2$. \\
+    Humano & $+1$ em um atributo opcional. \\
+	Minotauro & FOR $+2$, CON $+1$, INT $-2$. \\
+\end{rpg-table}
+
+\newpage
+
+\begin{rpg-table}
+    Quareen & SAB $+2$, INT $+1$, FOR $-1$, CON $-1$. \\
+    Meio-Elfo & DES $+2$, $+1$ em atributo opcional (exceto DES e CON), CON $-2$. \\
+    Meio-Orc  & FOR $+2$, $+1$ em atributo opcional (exceto FOR, CAR e INT), INT $-1$, CAR $-1$. \\
+    Tiefling  & CAR $+2$, CON $+1$, SAB $-1$, INT $-1$.
+\end{rpg-table}
+
+\header{Raças e suas Proeficiências}
+\begin{rpg-table}
+   	\textbf{Raça}  & \textbf{Proeficiência} \\
+    Anão  & CONSTITUIÇÃO \\
+    Elfo  & DESTREZA\\
+    Gnomo & INTELIGÊNCIA\\
+    Gobling & DESTREZA\\
+    Halfling & CARISMA\\
+    Humano & Opcional\\
+	Minotauro & FORÇA\\
+    Quareen & SABEDORIA\\
+    Meio-Elfo & DESTREZA\\
+    Meio-Orc  & FORÇA\\
+    Tiefling  & CARISMA
+\end{rpg-table}
+
+\section{Carma}
+
+Apesar de possuírem uma progressão geral, as classes possuem suas especificações. Além disso, será trabalhado um sistema de multiclasses baseado em CARMA. A orientação, ou CARMA, do personagem será determinada pelas atitudes do jogador, sendo esta classificada em: ORDEIRA, que consiste em ações leais ou bondosas, NEUTRA, relacionada a ações egoístas ou imparciais e CAÓTICA, que dizem respeito a ações maléficas. As raças possuem tendências justificadas pelo ambiente em que viveram. Inicialmente, os personagens começam com a tendência de sua raça, e com o passar das sessões, são melhor definidos. As tendências raciais estão definidas a seguir:
+
+\header{Raças e suas Tendências}
+\begin{rpg-table}
+   	\textbf{Raça}  & \textbf{Tendências} \\
+    Anão      & NEUTRO       \\
+    Elfo      & NEUTRO      \\
+    Gnomo     & ORDEIRO      \\
+    Gobling   & CAÓTICO        \\
+    Halfling  & NEUTRO/ORDEIRO \\
+    Humano    & ORDEIRO           \\
+    Meio-Elfo & NEUTRO/ORDEIRO           \\
+    Meio-Orc  & CAÓTICO/ORDEIRO           \\
+    Minotauro & CAÓTICO        \\
+    Quareen   & NEUTRO/CAÓTICO    \\
+    Tiefling  & CAÓTICO
+\end{rpg-table}
+
+\section{Mitologia}
+No princípio, havia o Todo e o Nada. O Silêncio, cujo córtex era Klaus e o Infinito, cujo centro era Naga. Entretanto, a ganância de Klaus em ser predominate cuminou na batalha pela existência, entre os irmãos posteriormente conhecidos como Os Brancos. Tal fato resultou na decadência de Klaus, e Naga, vendo-se como uma instável hegemonia, sacrificou-se para ser A Mãe de Todos, dando luz aos seres conhecidos como Seis Divindades da Existência. 
+\subsubsection*{Appolonir de Pyrus}
+O Deus do fogo, das chamas, do calor dos vulcões e do centro dos vários mundos. Sua representação está diretamente ligada a sua religião, o Pyrusismo, cujo principal aspecto é a valorização da força e o fortalecimento do ser.
+\subsubsection*{Harpus de Ventus}
+A Deusa do ar, das correntes de vento, dos tufões, turbilhões e tornados, e de tudo aquilo que plana, voa e sobrevoa . Sua representação está diretamente ligada a sua crença, o Ventusismo, cujo principal aspecto é a valorização da velocidade e do ser destro. 
+\subsubsection*{Oberus de Subterra}
+O Deus da terra, das areias do deserto, das dunas, dos vales, das montanhas, da terra-talhada e de tudo aquilo que caminha, escala ou rasteja. Sua representação está diretamente ligada ao seu culto, o Subterrismo, cujo principal aspecto é a valorização da força, da defesa e da constituição do ser.
+\subsubsection*{Frosh de Aquos}
+A Deusa da água, dos rios, mares e oceanos, daquilo que precipita, que evapora e dos seres que nadam. Sua representação está diretamente ligada a sua doutrina, o Aquosismo, cujo principal aspecto é o equilíbrio entre o ataque e a defesa, entre a força, a destreza e a constituição do ser.
+\subsubsection*{Exedra de Darkus}
+O Deus das trevas, do pecado, do silêncio, do oculto, do escuro, da punição, da opressão e da morte. Sua representação está diretamente ligada a sua seita, chamada Odarki, cujo principal aspecto é a valorização do poder do caos sobre tudo aquilo que existe, existiu ou existirá.
+\subsubsection*{Haos de Lumina}
+A Deusa da luz, da energia positiva, da vida, da virtude, da bondade, da justiça, e dos seres vivos, conscientes ou não. Sua representação está diretamente ligada a sua fé, chamada Illumini, cujo principal aspecto é a valorização do poder da ordem sobre tudo aquilo que existe, existiu ou existirá. \\
+
+Apesar de uma temporária harmonia, o sonho da supremacia imposta por Exedra provocou uma guerra entre ele e as demais divindades. Esse conflito resultou na formação do Mundo Material, a partir do próprio Exedra, expulso do Panteão em sua queda sem fim, e do sangue dos outros Deuses. 
+
+A fim de evitar novos conflitos, o Panteão, liderado por Appolonir, toma uma decisão: eis que ocorre a gênesis da Torre Negra, uma entidade situada entre os mundos e responsável por sustentar o espaço-tempo imparcialmente no Mundo Material. \textbf{ E assim tem sido, até o dia em que tudo mudou...}
+
+
+\section{Classes}
+
+\subsection{Clérigo}
+  \begin{rpg-quotebox}{O SUPORTE}
+      \begin{rpg-list}
+       \item PV: 16.
+       \item PM: 4 + SAB.
+       \item ARMADURA E ESCUDO: Armaduras leves, médias e escudos.
+       \item ARMA: Armas simples.
+       \item ÍTENS MÁGICOS: Todos os ítens.
+  \end{rpg-list}
+  	
+\end{rpg-quotebox}
+
+\begin{rpg-suggestionbox}{Sacerdote (ORDEIRO)}
+  A devoção do clérigo o ascende a representante de sua divindade na terra em que habita. 
+  \begin{rpg-list}
+       \item ARMADURA E ESCUDO: Apenas ORDEIROS (COM VANTAGEM) e NEUTROS.
+       \item ARMA: Apenas ORDEIRAS (COM VANTAGEM) e NEUTRAS.
+       \item USO DE ÍTENS MÁGICOS: Apenas ORDEIROS e NEUTROS.
+  \end{rpg-list}    
+\end{rpg-suggestionbox}
+
+\begin{rpg-commentbox}{Druida (NEUTRO)}
+	O clérigo abstém de seus votos e torna-se um Druida: um seguidor tribal que vive na natureza primitiva e na pura manifestação de seu deus. 
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Todas as armaduras e escudos.
+    	\item ARMA: Todas as armas.
+    	\item USO DE ÍTENS MÁGICOS: Todos os ítens.
+    \end{rpg-list}
+\end{rpg-commentbox}
+
+\begin{rpg-warnbox}{Cultista (CAÓTICO)}
+	O clérigo abstém de seus votos e renega seu deus. Na sua revolta, se depara com o inimigo de seu antigo deus, que se torna seu novo mestre.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Apenas armaduras e escudos CAÓTICOS (COM VANTAGEM) e NEUTROS.
+    	\item ARMA: Apenas armas CAÓTICAS (COM VANTAGEM) e NEUTRAS.
+    	\item USO DE ÍTENS MÁGICOS: Apenas ítens NEUTROS e CAÓTICOS.
+    \end{rpg-list}
+\end{rpg-warnbox}
+
+\subsection{Guerreiro}
+	\begin{rpg-quotebox}{O TANQUE}
+      \begin{rpg-list}
+             \item PV: 20 ou 16(Elfo ou Meio-Elfo).
+             \item PM: 2 + CON.
+           \item ARMADURA E ESCUDO: Todas as armaduras e escudos.      
+           \item ARMA: Todas as armas.
+           \item USO DE ÍTENS MÁGICOS: Apenas ítens simples.
+       \end{rpg-list}
+	\end{rpg-quotebox}
+
+\begin{rpg-suggestionbox}{Paladino (ORDEIRO)}
+Ao ouvir suas preces, seu deus o julga merecedor, tornado-se o fio da lâmina de seu mestre mestre.
+  \begin{rpg-list}
+       \item ARMADURA E ESCUDO: Apenas ORDEIROS (COM VANTAGEM) e NEUTROS.
+       \item ARMA: Apenas ORDEIRAS (COM VANTAGEM) e NEUTRAS.
+       \item ÍTENS MÁGICOS: Apenas ORDEIROS e NEUTROS.
+  \end{rpg-list}    
+\end{rpg-suggestionbox}
+
+\begin{rpg-commentbox}{Gladiador (NEUTRO)}
+Guerreiro avança em seu treinamento e segue o caminho de sua vontade e seu coração, tornando-se protetor de si e de seus ideais.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Todas as armaduras e escudos.
+    	\item ARMA: Todas as armas.
+    	\item USO DE ÍTENS MÁGICOS: Todos os ítens.
+    \end{rpg-list}
+\end{rpg-commentbox}
+
+
+
+\begin{rpg-warnbox}{Bárbaro (CAÓTICO)}
+	 O guerreiro sucumbe a própria raiva, partindo numa corrida desenfreada pela supremacia e se tornanado uma arma viva de destruição em massa.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Apenas CAÓTICOS (COM VANTAGEM) e NEUTROS.
+    	\item ARMA: Apenas CAÓTICAS (COM VANTAGEM) e NEUTRAS.
+    	\item ÍTENS MÁGICOS: Apenas NEUTROS e CAÓTICOS.
+    \end{rpg-list}
+\end{rpg-warnbox}
+
+\subsection{Mago}
+\begin{rpg-quotebox}{O ATACANTE}
+      \begin{rpg-list}
+       \item PV: 14.
+       \item PM: 6 + INT.
+       \item ARMADURA E ESCUDO: Apenas armaduras leves.
+       \item ARMA: Armas simples.
+       \item USO DE ÍTENS MÁGICOS: Todos os ítens.
+  \end{rpg-list}
+\end{rpg-quotebox}
+
+\begin{rpg-suggestionbox}{Arcanista (ORDEIRO)}
+Ao avançar seu treinamento, o mago decide trilhar o caminho do conhecimento sob Código da Magia e Dobra da Realidade, tornando-se Arcanista.
+  \begin{rpg-list}
+       \item ARMADURA E ESCUDO: Apenas ORDEIROS (COM VANTAGEM) e NEUTROS.
+       \item ARMA: Apenas ORDEIRAS (COM VANTAGEM) e NEUTRAS.
+       \item ÍTENS MÁGICOS: Apenas ORDEIROS e NEUTROS.
+  \end{rpg-list}    
+\end{rpg-suggestionbox}
+
+\begin{rpg-commentbox}{Feiticeiro (NEUTRO)}
+O mago abandona seu treinamento e dedica-se ao aprendizado e conexão com o natural primitivo de acordo com seus próprios propósitos e objetivos, tornando-se Feiticeiro.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Todas as armaduras.
+    	\item ARMA: Armas simples.
+    	\item USO DE ÍTENS MÁGICOS: Todos os ítens.
+    \end{rpg-list}
+\end{rpg-commentbox}
+
+\begin{rpg-warnbox}{Necromante (CAÓTICO)}
+O mago se desvirtua, renegando o Código da Magia e Dobra da Realidade e se tornando um Necromante: um manipulador das forças sombrias e ocultas.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Apenas CAÓTICOS (COM VANTAGEM) e NEUTROS.
+    	\item ARMA: Apenas CAÓTICAS (COM VANTAGEM) e NEUTRAS.
+    	\item ÍTENS MÁGICOS: Apenas NEUTROS e CAÓTICOS.
+    \end{rpg-list}
+\end{rpg-warnbox} 
+
+\subsection{Ranger}
+
+\begin{rpg-quotebox}{O ESPECIALISTA}
+      \begin{rpg-list}
+       \item PV: 12.
+       \item PM: 2 + DES.
+       \item ARMADURA E ESCUDO: Armaduras leves e médias.
+       \item ARMA: Todas as armas.
+       \item USO DE ÍTENS MÁGICOS: Apenas ítens simples.
+  \end{rpg-list}
+\end{rpg-quotebox}
+
+\begin{rpg-suggestionbox}{Mítico (ORDEIRO)}
+O ranger, pela sua afinidade com o meio, se torna Mítico: lenda e folclore, protetor das terras e juiz das leis da natureza.
+  \begin{rpg-list}
+       \item ARMADURA E ESCUDO: Apenas ORDEIROS (COM VANTAGEM) e NEUTROS.
+       \item ARMA: Apenas ORDEIRAS (COM VANTAGEM) e NEUTRAS.
+       \item ÍTENS MÁGICOS: Apenas ORDEIROS e NEUTROS.
+  \end{rpg-list}    
+\end{rpg-suggestionbox}
+
+\begin{rpg-commentbox}{Vigarista (NEUTRO)}
+	O ranger abdica de seu ofício e segue sua vocação errante, ladina e boêmica, se tornando Vigarista: um andarilho em busca de sustento, aperfeiçoamento e sobrevivência.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Todas as armaduras e escudos.
+    	\item ARMA: Todas as armas.
+    	\item USO DE ÍTENS MÁGICOS: Todos os ítens.
+    \end{rpg-list}
+\end{rpg-commentbox}
+
+\begin{rpg-warnbox}{Assassino (CAÓTICO)}
+	 O ranger decai à selvageria, ganância e crueldade, se tornando Assassino: um caçador inescrupuloso e imoral, cuja ambição é o aperfeiçoamento do matar.
+    \begin{rpg-list}
+      	\item ARMADURA E ESCUDO: Apenas CAÓTICOS (COM VANTAGEM) e NEUTROS.
+    	\item ARMA: Apenas CAÓTICAS (COM VANTAGEM) e NEUTRAS.
+    	\item ÍTENS MÁGICOS: Apenas NEUTROS e CAÓTICOS.
+    \end{rpg-list}
+\end{rpg-warnbox}
+
+\section{Subatributos}
+
+Além dos atributos comuns, que irão interferir nas características primordiais do personagem, existem aqueles que se comportam como consequência prática destes atributos:
+
+\begin{rpg-list}
+      	\item PV (Pontos de Vida): Representa o HP do personagem.\\
+        \textbf{PV da Classe $+$ Modificador de CON.}
+        \item CA (Classe de Armadura): É preciso que o d20 adversário seja maior ou igual a este atributo para que provoque dano.\\
+        \textbf{10 $+$ Modificador de DES $+$ Bônus de Armadura $+$ Bônus de Escudo.}
+        \item PM (Pontos de Magia) / STAMINA (Fôlego): É a Mana para o Clérigo e o Mago, e a STAMINA para Guerreiro e Ranger.\\
+        \textbf{Determinada pela classe.}
+\end{rpg-list}
+
+\section{Equipamentos}
+
+A seguir serão listados os equipamentos de defesa (armaduras e escudos), e em seguida os de ataque (armas):
+ 
+\subsection{Defesa}
+
+\header{Equipamentos de Defesa}
+
+\begin{rpg-table}[XXX]
+   	\textbf{Proteção}  & \textbf{Modificador} & \textbf{Preço (Moedas)} \\
+    Trajes comuns					& +0 CA  & 0 \\
+    Trajes de couro                 & +1 CA  & 100  \\
+    Armadura leve                   & +2 CA  & 250	\\
+    Armadura média              	& +3 CA (DES $-$1)  & 550   \\
+    Armadura pesada                 & +4 CA (DES $-$2) & 1000   \\
+    Escudo médio                    & +1 CA (DES $-$1) & 100   \\
+    Escudo pesado                   & +2 CA (DES $-$2) & 250   \\
+\end{rpg-table}
+
+\subsection{Ataque}
+
+\header{Equipamentos de Ataque}
+\begin{rpg-table}[XXX]
+   	\textbf{Arma}  & \textbf{Dados} & \textbf{Características} \\
+    Espada/Lâmina	& 1d6 & Alcance Médio\\
+    Lança  	& 1d6 & Alcance Longo\\
+    Montante & 1d12 & DES $-2$\\
+    Sabres & 2d6 & Alcance Médio\\
+    Arco Leve & 1d6 & Recarga Imediata\\
+    Bestas & 2d6 & Recarga 2 Turnos\\
+    Balista & 1d8 & Recarga Imediata\\
+    Arco Composto & 1d12 & Recarga 1 Turno\\
+    Cetro & 1d4$+1$ & $+$1d2 PM Máx.\\
+    Potes & 1d4 & $+$1d4 PM Máx.\\
+    Lâmpadas & 1d4$+1$ & $+$1d6 PM Máx.\\
+    Báculo/Cajado  & 1d6 & $+$1d6 PM Máx.\\
+    Adaga & 1d4$+1$ & Alcance Curto\\
+    Shuriken & 1d4$+1$ & Alcance Longo\\
+    Garras & 2d4 & Alcance Curto\\
+    Alfange/Cimitarra & 1d8 & Alcance Médio\\
+    Katana & 1d10 & Alcance Médio\\
+    Shuriken Gigante & 1d8 & E. Bumerangue\\
+    Machado & 1d12 & DES $-2$\\
+    Lâmina Dupla & 2d6 & DES $-2$\\
+    Gadanha/Foice & 1d8 & Alc. Longo e Leve\\
+    Pique & 2d6 & Alc. Médio e Leve\\
+    Gládio & 1d6 & Manejo Simples\\
+    Glaive & 1d6 & Pique Simples\\
+    Égide  & 1d6 $+$ 1d4 CA & Espada $+$ Escudo\\
+    Tirfing & 1d8 & Runada\\
+    Argolas & 2d4 & Alcance Variável\\
+    Violino & 1d6 & $+$1d4 PM Máx.\\
+    Tesserato & 1d4$+1$ & $+$1d8 PM Máx.\\
+    Manopla Marcial & 1d4 & Runada\\
+    Tonfas & 2d4 & Alcance Médio\\
+    Bastão & 1d6 & Alcance Longo\\
+    Vajras & 2d6 & Alcance Curto\\
+    Lança Retrátil & 1d6 & Alcance Variável\\
+    Espadas Gêmeas & 2d6 & DES $-$2\\
+    Soluna & 1d6 $+$ 1d4 & Espada $+$ Adaga\\
+    Manual & 1d6 & $+$1d4 PM Máx.\\
+    Mosquetes & 2d6 & Recarga 2 Turnos\\
+    Revólver & 2d6 & Recarga 4 Turnos\\
+    Pistola & 1d6 & Recarga 6 Turnos\\
+    Marreta/Martelo & 1d10 & DES $-$1\\
+    A.D.M. & 1d12 & Recarga 3 Turnos\\
+    Deathstar & 1d12 & Foice $+$ Garras\\
+    Grandark & 1d12 & Montante/Balista\\
+    Eclipse & 1d12 & Espada $+$ Lança\\
+    Endless & 1d4 $+$ 1d2 PM & Manopla Mágica\\
+    Escopeta & 1d10 & Recarga 1 Turno\\
+    Metralhadora & 1d12 & Recarga 3 Turnos\\
+    Leque & 1d6 & Alcance Curto\\
+    Vembrassa & 1d10 & Leque $+$ Lâmina\\
+    Florete/Rapieira & 1d6 & Alcance Longo\\
+    Clava/Maça & 1d8 & Alcance Médio\\
+    Mangual & 1d10 & Alcance Médio\\
+    Chicote/Corrente & 1d6$+1$ & Alcance Longo\\
+    
+\end{rpg-table}    
+
+\newpage
+
+\chapter{A Aventura}
+
+\section{Elementos Básicos}
+
+Toda boa aventura de RPG, que enterte tanto o mestre quanto os jogadores, possui os seguintes elementos:
+
+\subsubsection*{Ameaça Crível}
+É necessária uma ameaça que afete o grupo como um todo, seja de forma geral, seja particular a cada um. A ameaça pode assumir a forma de um vilão e seus lacaios, de um monstro, ou de uma organização. Não necessariamente os inimigos devem ser maldosos, o importante é serem antagonistas aos jogadores.
+
+\subsubsection*{Plot Twist X Cliché}
+Tudo em excesso acaba por saturar a aventura. Uma história com muitos clichés acaba por não ser tão levada a sério e sendo bastante previsível. Uma história com muito plot twists acaba por se tornar bastante confusa. Apesar de surpresas ocasionais serem bem vindas, o ideal é compensar.
+
+\subsubsection*{Foco no Presente}
+Um background sempre enriquece uma história. No entanto, é necessário lembrar que a história ocorre no presente. Uma história com muitos fatos ocorridos no passado pode se tornar distante do que acontece no agora, além de muitos fatos não-vividos a lembrar pode ser custoso para o entendimento e divertimento com a aventura.
+
+\subsubsection*{Protagonistas Úteis}
+Os protagonistas da história são os jogadores e isso deve estar claro o tempo inteiro, e por isso as ações dos jogadores devem fazer a diferença: em um mesmo local, os jogadores podem tomar decisões diferentes e em locais diferentes podem ser tomadas as mesmas resoluções.
+
+\subsubsection*{Estrutura}
+Toda história possui um início, um meio e um fim. No início, é apresentada a motivação dos jogadores, um pouco sobre o passado e as primeiras interações. No meio, temos a maior parte das interações, conflitos e explorações. No fim, temos os combates finais e as últimas interações.
+
+\section{Os Pilares do Jogo}
+A rigor, o RPG de Mesa gira em torno de 3 pilares: a exploração de ambientes, a interação social, e os combates. Existem jogadores que apreciam cada um destes igualmente, existem jogadores com preferências. De toda forma, são elementos essenciais, mas que também devem fazer dos jogadores e do mestre bem servidos de entretenimento.
+
+\subsection{Interação Social e Exploração}
+Durante a aventura, os personagens realizam diversas ações e interações sociais cujo desempenho depende diretamente de seus atributos (como investigar um ambiente, ler uma escritura antiga ou conversar com alguém, por exemplo). Para determinar o sucesso ou fracasso, são aplicados os testes, onde o jogador rola \textbf{1d20 $+$ Modificador} em situações normais; \textbf{maior(2d20) $+$ Modificador} quando em vantagem e \textbf{menor(2d20) $+$ Modificador}, em desvantagem.
+
+\subsection{Combate}
+À priori o combate, é necessário estabelecer a Iniciativa, que irá ditar a ordem dos turnos em cada round (quanto maior a iniciativa, mais cedo será o turno do personagem). Em cada turno de personagem, a rigor, ele deve escolher uma dentre as seguintes ações:
+
+\subsubsection*{Ataque Normal}
+O personagem rola \textbf{1d20 $+$ Modificador de DES (em ataques à distância)}. Se o resultado for maior ou igual a CA inimiga, o personagem acerta. Nesse caso, ele rola \textbf{Ataque da Arma $+$ Modificador de FOR (em ataques corpo-a-corpo)}. Se for Falha Crítica, o personagem sofre contra-golpe (o valor depende do inimigo). Se for Acerto Crítico, o dano é dobrado.
+
+\subsubsection*{Magia / Habilidade}
+O personagem rola o valor pré-determinado pela Magia / Habilidade e desconta PM / STAMINA. A forma como isso se dá depende da situação.
+
+\subsubsection*{Ação de Campo}
+O jogador pode se movimentar pelo local, buscando melhorar sua posição. Normalmente não é possível usar ítens no meio de um combate, ou trocar de arma, mas dependendo da situação, isso pode se tornar possível. Fugir do combate é possível, mas isso acarreta em certas condições.
+
+\section{Situação do Personagem}
+Fora do combate, mas principalmente dentro dele, os aventureiros vão se deparar com acontecimentos que geram efeitos que vão se prolongar durante um confronto e até mesmo além dele. Normalmente, são causados por \textbf{ataques com efeito} e por \textbf{magias}, apesar de também serem causados por situações pouco ortodoxas. É possível em alguns casos resistir ao efeito, vencendo um teste que será imposto pela rolagem daquele que o aplica. Os principais estados dos personagem serão listados a seguir:
+
+\subsection*{Normal}
+Estado normal do personagem. Dessa forma, não há vantagens nem desvantagens. Normalmente, os personagens começam a aventura neste estágio. Toda vez que um efeito diferente deste se encerra, o personagem retorna a este estágio.
+
+\subsubsection*{Sangrando}
+Todas as vezes em que um indivíduo sofre esse efeito, ele deve rolar 1d20 $+$ CON como forma de resistência: se vence, o sangramento é estancado; se perde, recebe 1d6 de dano e rola com desvantagem. O efeito perdura de 1d3 turnos, e em todos o indivíduo tem a chance de resistir. 
+
+\subsubsection*{Envenenado}
+Quando um indivíduo sofre esse efeito, ele deve rolar 1d20 $+$ CON como forma de resistência: se vence, o veneno é inefetivo; se perde, recebe 1d6 de dano a cada turno. O efeito perdura 1d3 turnos, sem novas resistências.
+
+\subsubsection*{Congelado}
+Todas as vezes em que um indivíduo sofre esse efeito, o indivíduo perde 1d3 turnos, sem chance de resistência.
+
+\subsubsection*{Atordoado}
+Quando um indivíduo sofre esse efeito, ele deve rolar 1d20 $+$ CON como forma de resistência: se vence, o aventureiro resiste; se perde, fica inútil no próximo turno, sem chance de nova resistência. 
+
+\subsubsection*{Queimado}
+Todas as vezes em que um indivíduo sofre esse efeito, ele deve rolar 1d20 $+$ CON como forma de resistência: se vence, ele não se queima; se perde, recebe 1d6 de dano e rola com desvantagem no próximo turno. 
+
+\subsubsection*{Paralizado}
+Quando sofre esse efeito, o indivíduo fica inútil no próximo turno, sem chance de nova resistência.
+
+\section{Descanso}
+Há dois tipos de descanso: curto e longo. Entretanto, apesar de sua clara distinção, na prática, seus aspectos não são tão bem definidos, pois podem variar dependendo do lugar, do conforto, da alimentação, da condição dos aventureiros, entre outros fatores que podem tanto fazer de uma breve parada um senhor descanso, quanto de uma longa noite nada mais que desgaste.
+
+\begin{rpg-quotebox}{Tipos de Descanso:}
+	\begin{rpg-list}
+      	\item Curto: Regenera CON + Dado da Classe (1d10 para o Clérigo, 1d6 para o Mago, 1d12 para o Guerreiro e 1d8 para o Ranger) de PV e PM/STAMINA.
+        \item Longo: Regenera todos os pontos referentes ao PV e ao PM/STAMINA.
+	\end{rpg-list}
+\end{rpg-quotebox}
+
+
+\chapter{As Especialidades e as Perícias}
+
+Aqui estão detalhes das Magias Arcanas e Divinas, e das Habilidades do Guerreiro e do Ranger:
+
+\section{Magias Divinas}
+
+\subsection*{Arco I}
+\subsubsection*{Cativar animais}
+Conjurando sobre animais selvagens não inteligentes é possível acalmá-los e conquistar sua confiança. Os animais podem fazer uma jogada de proteção para resistir.
+\subsubsection*{Círculo de fé}
+Com esta magia, é formado um círculo local com determinada área ao redor do clérigo. Este círculo protege o interior de ataques com um escudo (1d4 de HP e 10 de CA), mas não de magias. 
+\subsubsection*{Curar/causar ferimentos leves}
+Cura 1d4+1 pontos de vida ou inflige 1d4+1 de dano.
+\subsubsection*{Santuário}
+Esta magia cria uma aura de proteção ao redor do clérigo, que faz com que \textbf{todos} aqueles que ali estão, recebam 1d4+1 de HP. 
+\subsubsection*{História}
+Em testes de História, rola-se com vantagem.
+\subsubsection*{Medicina}
+Em testes de Medicina, rola-se com vantagem.
+
+\subsection*{Arco II}
+\subsubsection*{Ajuda Divina}
+Esta magia concede ao alvo 1d4+1 pontos de vida temporários que podem superar o valor base de pontos de vida e serão sempre os primeiros a serem perdidos em caso de ferimentos.
+\subsubsection*{Criar chamas}
+Esta magia cria nas mãos do clérigo uma chama do tamanho de uma tocha, podendo arremessar as chamas que foram criadas causando 1d4 de dano e podendo provocar efeito. 
+\subsubsection*{Falar com animais}
+O clérigo pode entender a linguagem dos animais e consegue se comunicar com eles. Esta magia não obriga que
+o animal fale com o clérigo, apenas permite que consigam se comunicar.
+\subsubsection*{Martelo espiritual}
+A magia cria um martelo que pode ser usado pelo clérigo para atacar dois alvos próximos com 1d4+1 pontos de dano. 
+\subsubsection*{Obscurecimento}
+Esta magia cria uma densa neblina em torno do clérigo (a nuvem é fixa e não se move junto com o clérigo). As rolagens dentro dessa neblina sofrem desvantagem.
+
+\subsection*{Arco III}
+\subsubsection*{Convocar relâmpagos}
+Esta magia convoca relâmpagos a partir de um céu carregado com nuvens tempestuosas e a direciona a um ponto específico. O clérigo deve se concentrar por um turno inteiro e, no início do próximo turno, o relâmpago cairá no ponto escolhido, gerando 1d6 pontos de dano.
+\subsubsection*{Curar doenças/Pestilência}
+Esta magia cura qualquer doença que acometa ao alvo, incluindo as que
+foram causadas por magia. De outra forma, essa magia acomete uma doença em um alvo, causando 1d4 de dano por turno. A chance de sucesso é de 25\%.
+\subsubsection*{Oração}
+Esta magia busca um auxilio imediato dos deuses: todos os aliados recebem um bônus de +1d4 nas suas rolagens, enquanto os inimigos recebem uma penalidade de -1.
+\subsubsection*{Proteção Divina}
+Esta magia faz com que a roupa do clérigo fique encantada, aumentando a
+sua classe de armadura em 1d4.
+
+\subsection*{Cerne I}
+\subsubsection*{Bênção do Patrono}
+A bênção é concedida pelo deus adorado, concedendo ao personagem um bônus de vantagem, que depende do domínio do Deus. É necessário se tornar um Sacerdote. 
+\subsubsection*{Orientação à Natureza}
+O personagem possui a capacidade de adotar um PET que se junta ao grupo. O animal necessita ser conquistado, e ao projetar sua alma sobre ele, o mesmo possui HP, CA e uma bonificação que garante vantagem ao personagem. É necessário se tornar um Druida.
+\subsubsection*{Caminho do Renegado}
+Ao adotar o inimigo de seu patrono, é obtida a capacidade de recuperar 1d4 de HP quando é dedicado um turno completo de concentração.
+
+\subsection*{Arco IV}
+
+\subsubsection*{Arma em serpente}
+O druida consegue transformar armas não mágicos em serpentes,
+que atacarão o seu dono em 1d4, desarmando-o. Caso já esteja desarmado, o alvo recebe 1d4-1 de dano, pois as serpentes brotarão do solo. 
+\subsubsection*{Criar fogo}
+O cultista cria uma fonte de fogo comum do tamanho de uma fogueira, gerando 1d4 de dano naqueles que ali estão próximos.
+\subsubsection*{Causar ferimentos moderados}
+O cultista inflige 1d6+1 de dano (com direito a teste de Constituição).
+\subsubsection*{Curar ferimentos moderados}
+O sacerdote cura 1d6+1 pontos de vida.
+\subsubsection*{Neutralizar veneno}
+Esta magia faz com que o druida anule quaisquer efeitos de venenos em ação dentro de um organismo.
+\subsubsection*{Orientação Divina}
+Pedindo ajuda à sua divindade, o sacerdote recebe sinais que lhe mostram
+um caminho, uma verdade, um evento ou uma atividade em específico. Necessário teste de Sabedoria.
+
+\subsection*{Arco V}
+\subsubsection*{Coluna de chamas}
+Esta magia faz com que o cultista gere uma coluna saia do chão e queime tudo o que estiver dentro dessa área, causando 1d6 de dano. Um teste de Destreza é necessário aos alvos.
+\subsubsection*{Comunhão}
+Esta magia faz com que poderes superiores respondam um pouco mais diretamente aos anseios do sacerdote, por meio da visão da verdade. Não são necessários testes.
+\subsubsection*{Constrição}
+O druida consegue animar todas as plantas mais próximas para que agarrem e apertem um ser vivo predeterminado pelo clérigoque passarem por
+ali. As vítimas rolam resistência de destreza, mas se falham, passam a rolar com desvantagem.
+\subsubsection*{Causar ferimentos graves}
+O cultista inflige 1d8+1 de dano (com direito a teste de Constituição).
+\subsubsection*{Curar ferimentos graves}
+O sacerdote cura 1d8+1 pontos de vida.
+\subsubsection*{Concha de proteção}
+Uma concha de força mágica envolve uma área ao redor clérigo impedindo que qualquer efeito físico ou mágico entre ou saia da concha, com 1d6 de HP e 10 de CA.
+
+\subsection*{Cerne II}
+\subsubsection*{Intervensor Divino}
+O sacerdote é acudido pelo deus adorado e, quando está em uma situação de desvantagem, passa a realizar as rolagens como em uma situação comum.
+\subsubsection*{Ascenção na Natureza}
+O druida possui a capacidade de adotar um PET inteligente ou que possui uma dificuldade maior de ser conquistado. Ao projetar sua alma sobre o novo PET, o mesmo possui HP, CA e uma bonificação que garante vantagem ao druida.
+\subsubsection*{Mantra do Renegado}
+Ao estabeler uma relação Mestre-Aprendiz com o inimigo de seu antigo patrono, é obtida a capacidade de recuperar 1d4 de MP quando é dedicado um turno completo de concentração.
+
+\subsection*{Arco VI}
+\subsubsection*{Barreira de lâminas}
+Esta magia proporciona ao cultista criar uma barreira de afiadas lâminas. Qualquer criatura que tentar invadir a área da barreira, ao falhar em teste de Destreza, levará 1d6+1 pontos de dano e pode sofrer Sangramento.
+\subsubsection*{Abençoar ítem}
+A benção é feita sobre um ítem e o mesmo, na próxima rolagem que fará, o faz com vantagem. Pode ser realizada por um sacerdote, um druida ou um cultista.
+\subsubsection*{Cura Milagrosa}
+Esta magia proporciona ao sacerdote restaurar 1d100\% de pontos de vida de um alvo específico.
+\subsubsection*{Falar com monstros}
+O druida pode entender uma linguagem falada por monstro específico e consegue se comunicar com ele. 
+\subsubsection*{Palavras de salvação}
+Quando esta magia é conjurada, o clérigo obtém vantagem em qualquer teste de Sabedoria, dada a orientação e conselhos de seu Patrono.
+\subsubsection*{Partição}
+O druida consegue separar uma massa inanimada, abrindo um caminho seguro para passagem, se fechando brevemente.
+\subsubsection*{Amaldiçoar}
+Esta magia proporciona ao cultista, caso o alvo falhe em um teste de Constituição, drenar 1d100\% de pontos de vida do alvo em questão.
+
+\subsection*{Arco VII}
+\subsubsection*{Enfeitiçar multidões}
+Esta magia leva o cultista a afetar um conjunto de alvos com os seguintes efeitos: quem rolar abaixo de 10 morre; entre 10 e 12, é amaldiçoado (Envenenado); entre 13 e 15 fica paralizado; entre 16 e 18, fica atordoado e acima de 18 não sofrerá os efeitos desta magia.
+\subsubsection*{Magia astral}
+O sacerdote projeta sua forma astral para outros locais (visível apenas para quem estiver no plano astral), podendo assumir corpos que falham em um teste de Constituição. A partir de 3 turnos, o corpo sacerdote perde 1 HP, por causa da ausência de vida. 
+\subsubsection*{Manipulação da Natureza}
+O druida provoca a restauração,o definhar e a manipulação de uma ampla área inanimada ou no máximo formada por seres não inteligentes. Seres inteligentes na área atingida não são afetados.
+
+\subsection*{Cerne III}
+\subsubsection*{Representante Divino}
+O sacerdote, graças ao seu desempenho durante suas provações, é abençoado pelo deus adorado com a habilidade de permanecer consciente mesmo quando o seu HP está igual ou abaixo de 0. 
+\subsubsection*{Lenda da Natureza}
+O druida possui a capacidade de mesclar-se ao seu PET, tornando-se uma Quimera. Os atributos, vantagens e desvantagens do druida e de seu parceiro são agregados e adaptados.
+\subsubsection*{Emissário do Mal}
+Ao se tornar representação da inevitabilidade do mal, o cultista obtém vantagem, não cumulativa, por cada alma de inimigo morto por ele que for absorvida.
+
+\subsection*{Arco VIII}
+\subsubsection*{Última Maldição}
+Esta magia proporciona ao cultista afetar um conjunto de alvos com uma drenagem de 1d100\% de pontos de vida, caso falhem em um teste de Constituição.
+\subsubsection*{Ressurreição}
+Esta magia permite ao sacerdote ressucitar um ser a partir de seu cadáver ou parte dele. Ocorre a restauração de 1d100\% do HP, e a necessidade de um turno de recuperação.
+\subsubsection*{Terremoto}
+O druida causa um terremoto capaz de provocar dano de 1d8+1 em todos naquela área.
+
+\section{Magias Arcanas}
+
+\subsection*{Arco I}
+\subsubsection*{Abrir/Fechar objetos}
+Esta magia pode ser utilizada para abrir/fechar acesso qualquer instrumento ou objeto que esteja fechado, trancado ou emperrado.
+\subsubsection*{Detectar magia}
+O mago é capaz de detectar a presença de magia em uma determinada área ou em um certo objeto.
+\subsubsection*{Escudo arcano}
+O mago invoca um escudo invisível (1d4 de HP e 10 de CA) que protege de ataques não mágicos.
+\subsubsection*{Ilusão}
+O mago consegue criar a ilusão de uma criatura poderosa que consegue intimidar um determinado alvo que falhar em teste de Sabedoria.
+\subsubsection*{Patas de aranha}
+Esta magia permite ao alvo andar sobre paredes ou tetos como se este fosse um
+piso horizontal.
+\subsubsection*{Queda Suave/Salto}
+Esta magia faz com que alvos em queda livre assumam o peso de uma pluma, caindo lentamente ao sabor dos ventos até o chão ou saltando grandes alturas e distâncias.
+\subsubsection*{Sono}
+Esta magia coloca inimigos sob estado de sonolência, quando falham em um teste de Constituição. Passando 1d4 turnos inúteis, ou até ser acordado, ou levar dano.
+\subsubsection*{Toque chocante}
+O mago cria uma luva mágica de eletricidade em sua mão que causa choques na criatura tocada, causando 1d4+1.
+\subsubsection*{Míssil Mágico}
+O mago gera mísseis que serão direcionados pelo seu criador, gerando 1d4 de dano ao alvo.
+
+\subsection*{Arco II}
+\subsubsection*{Ruído Agudo}
+Esta magia cria um ruído extremamente agudo, gerando um dano de 1d4 em área para aqueles que falharem em teste de Constituição.
+\subsubsection*{Detectar alinhamento}
+O mago é capaz de detectar a presença de CARMA ordeiro/caótico em seres vivos ou inanimados.
+\subsubsection*{Detectar invisibilidade}
+O mago consegue detectar objetos e criaturas invisíveis, como se fossem normalmente visíveis.
+\subsubsection*{Invisibilidade}
+O alvo desta magia, seja ele uma pessoa ou objeto, fica invisível por 1d4 turnos. A magia é dissipada se o alvo invisível realizar qualquer tipo de ataque ou lançar uma magia.
+\subsubsection*{Levitação}
+Com esta magia, o mago é capaz de levitar uma pessoa ou objeto de até o dobro de seu peso, durante um período de no máximo um turno.
+\subsubsection*{Névoa/Escuridão}
+Uma névoa(ordeiro)/escuridão(caótico) ocupa uma região ao redor do mago, provocando desvantagem nas rolagens no interior da região.
+\subsubsection*{Percepção Extra Sensorial}
+O mago pode detectar os pensamentos de outros seres a uma distância razoável, compreendendo qualquer pensamento como se lhe fosse dito em voz alta.
+\subsubsection*{Flecha de chamas}
+Com esta magia, o mago consegue criar flechas de fogo que causam 1d4 pontos de dano por flecha.
+
+\subsection*{Arco III}
+\subsubsection*{Raio flamejante}
+Pelas mãos, o mago dispara um raio flamejante que afeta o alvo com 1d6, com um turno para recuperação.
+\subsubsection*{Bola de fogo}
+Um projétil semelhante a uma pequena pérola de chamas é disparado para explodir no lugar alvo, gerando 1d6 de dano no alvo e 1d4 nas proximidades, para as criaturas que falharem em teste de destreza.
+\subsubsection*{Forma espectral}
+Com esta magia, o mago e seus pertences se transformam em matéria insubstancial durante um turno, passando a serem imunes a ataques normais, sendo afetado apenas por magia ou armas mágicas.
+\subsubsection*{Teia}
+Uma Teia fibrosa e grudenta é usada como um laço, podendo imobilizar um inimigo durante um turno, ao falhar em um teste de Constituição.
+\subsubsection*{Lentidão}
+Todos dentro de uma área, que não passarem em um teste de Constituição ficam lentos como se seu metabolismo fosse amplamente reduzido. As movimentações ficam reduzidas à metade, e todos os ataques e defesas são realizados com desvantagem.
+\subsubsection*{Redoma}
+O mago fica cria um campo invisível fixo, como um escudo (1d6 de HP e 10 de CA), repelente a ataques físicos e projéteis não mágicos como flechas, pedras de funda e quatrelos de bestas.
+\subsubsection*{Relâmpago}
+O mago emite um raio de sua mão que causa 1d6 pontos de dano ao alvo e 1d4 nas proximidades, para criaturas que falharem em testes de Destreza.
+
+\subsection*{Cerne I}
+\subsubsection*{Áurea Arcana}
+O mago rola com vantagem em testes de Arcanismo e História. É necessário se tornar um Arcanista.
+\subsubsection*{Essência Natural}
+O mago rola com vantagem em testes de Medicina e Natureza. É necessário se tornar um Feiticeiro.
+\subsubsection*{Espectrismo}
+O mago rola com vantagem em testes de Arcanismo e Medicina. É necessário se tornar um Necromante.
+
+\subsection*{Arco IV}
+\subsubsection*{Força Arcana}
+Esta magia pode ser conjurada, por um arcanista, em qualquer alvo vivo gerando uma vantagem em um teste de Força.
+\subsubsection*{Raio de Enfraquecimento}
+Esta magia pode ser conjurada, por um necromante, em qualquer alvo vivo gerando uma desvantagem em um teste de Força.
+\subsubsection*{Invocar criaturas arcanas}
+O arcanista consegue invocar uma criatura elemental com 1d10 de HP, 10 CA e +1d4 de bônus em um atributo: força(fogo), destreza(vento), constituição(terra), inteligência(água), sabedoria(luz), carisma(trevas).
+\subsubsection*{Invocar criaturas tribais}
+O feiticeiro consegue invocar, a partir do solo, uma criatura tribal com 1d10 de HP, 10 CA e +1d4 de bônus em um atributo (força, destreza ou constituição).
+\subsubsection*{Invocar criaturas morto-vivas}
+O necromante consegue invocar uma criatura morto-viva com 1d10 de HP, 10 CA e +1d4 de bônus em um atributo (força, destreza ou carisma).
+\subsubsection*{Confusão}
+Esta magia causa confusão mental em alvos inteligentes, que passarão a agir de forma aleatória. O mestre deve jogar 1d12 para determinar o efeito: 1-6, atacarão o mago e seus aliados; 7-8, ficarão atordoados; 9-10, ficarão paralizados e 11-12 atacarão uns aos outros.
+\subsubsection*{Tempestade}
+Esta magia, conjurada por um feiticeiro, cria um vórtice de chuva, gelo e neve que expele granizo em todas as direções causando 1d6 de dano a todos.
+
+\subsection*{Arco V}
+\subsubsection*{Muralha Elemental}
+O arcanista gera uma muralha que, dependendo do elemento, possui certas propriedades: fogo, causando 1d4+1 de dano àqueles que ultrapassarem, por 1d2 turnos; gelo, que perdura por 1d3 turnos; e pedra, que resiste com 1d6 de HP e 12 de CA.
+\subsubsection*{Criar/Trancar passagens}
+Esta magia cria uma passagem, como se fosse um buraco através de algo sólido, por meio de toque. A mesma magia pode ser utilizada para fechar passagens pré-existentes, mesmo aquelas criadas com essa magiar, fazendo uso da composição da solidez. Pode ser conjurada por um arcanista, feiticeiro ou necromante.
+\subsubsection*{Muralha de energia escura}
+O necromante cria uma muralha de energia por um turno. Nenhum ser vivo, projétil ou efeito mágico penetra na muralha ou consegue sair.
+\subsubsection*{Muralha de vinhas e minerais}
+O feiticeiro cria uma muralha de vinhas e minerais com 1d8 de HP e 10 de CA, que é difícilmente escalada por conta dos espetos que a constituem.
+\subsubsection*{Reanimar inconscientes}
+O necromante consegue reanimar pessoas/animais que estejam inconscientes, porém vivos, desde que estejam na presença do mago. Ao serem reanimados, o alvo fica com 1d4 de HP.
+\subsubsection*{Névoa Venenosa}
+O feiticeiro conjura vapores sulfurosos e altamente venenosos são criados com esta magia, formando uma pesada e densa nuvem que se move num ritmo lento. Qualquer criatura que que tiver contato com a névoa deve realizar um teste de Constituição para evitar ser envenenada.
+\subsubsection*{Telecinésia}
+O arcanista é capaz de mover objetos usando apenas o poder da sua mente, levantando, movendo lentamente ou arremessando 1d3 vezes o próprio peso.
+
+\subsection*{Cerne II}
+\subsubsection*{Linhagem elementar}
+O arcanista possui 25\% de chance de reduzir um dado crítico a um dano comum.
+\subsubsection*{Linhagem tribal}
+O feiticeiro recebe uma bonificação de CA $+2$.
+\subsubsection*{Linhagem aberrante}
+O necromante consegue, ao matar um inimigo, recuperar 1d4$-1$ de Pontos de Vida ou PM.
+
+\subsection*{Arco VI}
+\subsubsection*{Teletransporte}
+Esta magia transporta o arcanista ou outro personagem tocado até um destino já visitado pelo mago (chance de sucesso é de 70\%), conhecido apenas (chance é de 50\%) ou desconhecido (chance de sucesso é de apenas 30\%). Uma falha em qualquer uma dessas jogadas pode significar a chegada em um destino aleatório.
+\subsubsection*{Encantar item}
+O encantamento é feito sobre um ítem e o mesmo, na próxima rolagem que fará, o faz com vantagem. Pode ser realizada por um arcanista, um feiticeiro ou um necromante. 
+\subsubsection*{Fúria da Natureza}
+Um rastro de destruição é emitido pelos pés do feiticeiro e, ao atingir o alvo único, causa 1d6+1 de dano.
+\subsubsection*{Raio da Morte}
+O necromante emite um raio de energia negativa pelas mãos, matando um alvo com menos de 1d8 de vida. A magia é ineficiente caso o alvo tenha mais pontos de vida.
+\subsubsection*{Reencarnação/Possessão}
+Esta magia faz com que uma alma específica seja reencorporada em outro organismo. Se o corpo estiver vivo, trata-se de uma magia ordeira (Reencarnação), caso contrário, caótica (Possessão). Almas se locomovem lentamente sobre essa magia, então a distância entre os corpos pode demandar um turno.
+
+\subsection*{Arco VII}
+\subsubsection*{Globo gélido}
+O arcanista invoca um pequeno globo de matéria congelante, causando 1d6+1 de dano e congelando o alvo.
+\subsubsection*{Meteorito incandescente}
+O arcanista invoca uma pequena esfera de matéria flamejante, causando 1d6+1 de dano e queimando o alvo.
+\subsubsection*{Raios e Trovões}
+Relámpagos são emitidos pelas mãos do feiticeiro, atingindo uma vítima com 1d8 de dano.
+\subsubsection*{Imunidade a magia}
+Com esta magia, o necromante concede proteção ao alvo contra todo tipo de magia por 1d3 turnos.
+consegue evitar esse efeito.
+\subsubsection*{Labirinto}
+O feiticeiro cria uma realidade paralela, estruturada como um grande labirinto, para onde a mente dos alvos são enviados. O alvo só consegue sair quando vence em um teste de Inteligência.
+\subsubsection*{Símbolo Amaldiçoado}
+O necromante gera um símbolo em um alvo, envenenando-o e provocando desvantagem no teste de Constituição.
+
+\subsection*{Cerne III}
+\subsubsection*{Prismático}
+O arcanista consegue intercambiar seus Pontos de Vida com seu PM.
+\subsubsection*{Metamórfico}
+O feiticeiro consegue, ao dedicar um turno para tal, modificar-se fisicamente em outra raça por 1d4 turnos. 
+\subsubsection*{Carcereiro de Almas}
+O necromante é capaz de depositar parte de sua alma em um objeto. É necessário que o ser esteja em contato com o objeto para comutar 1d6 de Pontos de Vida e 1d4 de PM/STAMINA.
+
+
+\subsection*{Arco VIII}
+\subsubsection*{Palavra de poder: cegar}
+O feiticeiro é capaz de cegar um alvo proferindo apenas uma única palavra, desde que o alvo falhe em um teste de Constituição.
+\subsubsection*{Palavra de poder: matar}
+O necromante é capaz de matar um alvo proferindo apenas uma única palavra, desde que o alvo falhe em um teste de Constituição.
+\subsubsection*{Palavra de poder: atordoar}
+O arcanista é capaz de atordoar um alvo proferindo apenas uma única palavra, desde que o alvo falhe em um teste de Constituição.
+
+\section{Habilidades do Ranger}
+
+\subsection*{Ativas I}
+\subsubsection*{Acrobacia}
+O Ranger, ao realizar testes de Acrobacia, rola com vantagem.
+\subsubsection*{Blefar}
+O Ranger, ao realizar testes de Blefe, rola com vantagem.
+\subsubsection*{Furtividade}
+O Ranger, ao realizar testes de Furtividade, rola com vantagem.
+
+\subsection*{Ativas II}
+\subsubsection*{Natureza}
+O Ranger, ao realizar testes de Natureza, rola com vantagem.
+\subsubsection*{Persuasão}
+O Ranger, ao realizar testes de Persuasão, rola com vantagem.
+\subsubsection*{Percepção}
+O Ranger, ao realizar testes de Percepção, rola com vantagem.
+
+\subsection*{Ativas III}
+\subsubsection*{Atuação}
+O Ranger, ao realizar testes de Atuação, rola com vantagem.
+\subsubsection*{Sobrevivência}
+O Ranger, ao realizar testes de Sobrevivência, rola com vantagem.
+\subsubsection*{Investigação}
+O Ranger, ao realizar testes de Investigação, rola com vantagem.
+
+\subsection*{Passivas I}
+\subsubsection*{Disciplina}
+Quando o ranger dedica um turno completo para repousar, recupera 1d4-1 de PM. É necessário se tornar um mítico.
+\subsubsection*{Equilibrium}
+O ranger pode dedicar um turno completo para intercambiar seu HP e seu PM. É necessário se tornar um vigarista.
+\subsubsection*{Ódio}
+Quando o ranger mata um de seus inimigos, recupera 1d4-1 de HP. É necessário se tornar um assassino. 
+
+\subsection*{Ativa IV}
+\subsubsection*{Atletismo}
+O Mítico, ao realizar testes de Atletismo, rola com vantagem.
+\subsubsection*{Intuição}
+O Assassino, ao realizar testes de Intuição, rola com vantagem.
+\subsubsection*{Presdigitação}
+O Vigarista, ao realizar testes de Presdigitação, rola com vantagem.
+
+\subsection*{Ativas V}
+\subsubsection*{Abrir/Trancar}
+Nesta habilidade o vigarista ou assassino pode abrir / fechar acesso qualquer instrumento ou objeto que esteja fechado, trancado ou emperrado.
+\subsubsection*{Cativar platéias}
+O guardão ou vigarista consegue atrair a atenção de uma plateia, mesmo que não compreendam perfeitamente a sua linguagem. Para resistir, é preciso vencer um teste de Carisma.
+\subsubsection*{Rastreamento}
+O mítico ou assassino consegue rastrear e identificar qualquer armadilha não mágica automaticamente. Apenas rastros e armadilhas mágicas precisam do teste de Percepção.
+
+\subsection*{Passivas II}
+\subsubsection*{Regressão}
+Quando o mítico mata um de seus inimigos, ao enviar sua essência ao descanso, recupera, em retribuição da natureza, 1d4-1 de HP.
+\subsubsection*{Estancar sangria}
+Quando o assassino dedica um turno completo para descansar e tratar de ferimentos, recupera 1d4-1 de HP.
+\subsubsection*{Sorte-azar}
+O vigarista pode dedicar um turno completo para sentir o fluxo Sorte-azar, onde ao rolar 1d2, se resultar em acerto, receber 1d4-1 de HP ou PM.
+
+\subsection*{Ativas VI}
+\subsubsection*{Cativar animais}
+Conjurando sobre animais selvagens não inteligentes, o mítico consegue acalmá-los e conquistar sua confiança. Os animais podem fazer um teste de Carisma para resistir.
+\subsubsection*{Evasão veloz}
+O assassino, em situação de fuga e/ou em testes de Destreza, obtém sucesso automático, exceto em situações que envolvem magia e/ou desvantagem, onde as rolagens são feitas normalmente.
+\subsubsection*{Melodia do Bardo}
+O vigarista entoa antigas cantigas que atraem vantagem aos seus aliados e desvantagem para os seus inimigos simutaneamente, dentro da área de alcance da magia.
+
+\subsection*{Ativas VII}
+\subsubsection*{Invisibilidade}
+O mítico ou vigarista possui a capacidade de se camuflar perfeitamente, ficando invisível por 1d4 turnos, ou até que seja realizado um ataque.
+\subsubsection*{Golpes Baixos}
+Na tentativa de quebrar o CA do oponente mais facilmente, o assassino ou vigarista realiza o teste com vantagem.
+\subsubsection*{Lentidão}
+O mítico ou assassino faz uso dessa habilidade para se mover em altíssma velocidade 1d3 turnos, realizando rolagens com vantagem durante esse período.
+
+\subsection*{Passivas III}
+\subsubsection*{O Protetor}
+Quando o protetor fica exatamente com 0 HP, recebe 1d4+1 de pontos de vida.
+\subsubsection*{O Duelista}
+Quando o vigarista recebe uma quantidade de dano capaz de nocauteá-lo, este rola 1d2 e, se obtém sucesso, consegue desprezar o dano levado.
+\subsubsection*{O Inevitável}
+O assassino permanece consciente mesmo quando seu HP está abaixo de 0. Entretanto, isso não o torna livre da morte.
+
+\subsection*{Ativas VIII}
+\subsubsection*{Marca do Caçador}
+Na tentativa de quebrar o CA do oponente mais facilmente, o mítico ou assassino tem sucesso automático.
+\subsubsection*{Contra Golpe}
+Ao ser atacado sem receber dano, o mítico ou vigarista pode realizar um ataque ao alvo, como se aquele fosse seu turno.
+\subsubsection*{Arqui-inimigo}
+Na tentativa de gerar mais dano ao oponente, o assassino ou vigarista rola do dado da arma com vantagem.
+
+\section{Habilidades do Guerreiro}
+\subsection*{Ativas I}
+\subsubsection*{Atletismo}
+O guerreiro, ao realizar testes de Atletismo, rola com vantagem.
+\subsubsection*{Natureza}
+O guerreiro, ao realizar testes de Natureza, rola com vantagem.
+\subsubsection*{Percepção}
+O guerreiro, ao realizar testes de Percepção, rola com vantagem.
+
+\subsection*{Ativas II}
+\subsubsection*{Intuição}
+O guerreiro, ao realizar testes de Intuição, rola com vantagem.
+\subsubsection*{Lidar com Animais}
+O guerreiro, ao realizar testes de Lidar com Animais, rola com vantagem.
+\subsubsection*{Sobrevivência}
+O guerreiro, ao realizar testes de Sobrevivência, rola com vantagem.
+
+\subsection*{Ativas III}
+\subsubsection*{Maestria em Combate}
+O guerreiro rola com vantagem na tentativa de quebrar o CA de um oponente.
+\subsubsection*{Medicina}
+O guerreiro, ao realizar testes de Medicina, rola com vantagem.
+\subsubsection*{Reflexos em Combate}
+O oponente, ao tentar quebrar o CA do guerreiro, rola com desvantagem.
+
+\subsection*{Passivas I}
+\subsubsection*{Combatente Corpo-a-corpo}
+Ao utilizar uma arma de combate corpo-a-corpo, o dano da arma é rolado com vantagem. É necessário se tornar um Gladiador. 
+\subsubsection*{Fúria}
+Ao matar um de seus inimigos, recupera 1d4-1 de STAMINA. É necessário se tornar um bárbaro. 
+\subsubsection*{Vontade de Ferro}
+O guerreiro, mesmo com 0 ou menos de HP, não fica inconsciente. É necessário se tornar um Paladino.
+
+\subsection*{Ativa IV}
+\subsubsection*{Frenesi}
+O bárbaro ou gladiador pode realizar uma ação bônus, na forma de ataque, em seu turno.
+\subsubsection*{Resguardo Totêmico}
+O paladino ou gladiador, ao falhar criticamente em uma rolagem, não sofre penalidades como contra-golpe, por exemplo.
+\subsubsection*{Sentido do Perigo}
+O paladino ou bárbaro possui vantagem em testes de intuição, podendo detectar a presença do CARMA oposto.
+
+\subsection*{Ativa V}
+\subsubsection*{Impacto Profundo}
+O paladino ou bárbaro, ao causar dano em uma criatura, esta passa a ficar sangrando.
+\subsubsection*{Intimidar inimigo}
+O bárbaro ou gladiador consegue intimidar um alvo específico que falhar em um teste de Carisma, paralizando este último.
+\subsubsection*{Blindagem Sobrenatural}
+Quando um inimigo falha em atacar o paladino ou gladiador, acaba por ficar atordoado.
+
+\subsection*{Passivas II}
+\subsubsection*{Poder de Justiça}
+O paladino obtém CA + 3 quando está sem armadura. Caso contrário, obtém CA + 2.
+\subsubsection*{Nervos de Aço}
+Quando o gladiador dedica um turno completo para se concentrar e descansar, recupera 1d4-1 de STAMINA.
+\subsubsection*{Ódio}
+Quando o bárbaro finaliza um de seus inimigos, recupera 1d4-1 de HP.
+
+\subsection*{Ativa VI}
+\subsubsection*{Brutalidade}
+Ao obter sucesso em quebrar o CA de um oponente, o bárbaro rola o dano da arma com vantagem.
+\subsubsection*{Curar pelas Mãos}
+O paladino, ao estar próximo do alvo, consegue curar 1d6+1 de HP.
+\subsubsection*{Marca do Gladiador}
+Ao obter sucesso em quebrar o CA de um oponente, o gladiador inflige o efeito "queimado" ao oponente.
+
+\subsection*{Ativa VII}
+\subsubsection*{Graça Divina}
+O paladino possui vantagem em teste de resistência contra armadilhas, efeitos e magias que envolvem constituição.
+\subsubsection*{Corpo Destro}
+O gladiador possui vantagem em teste de resistência contra armadilhas e magias que envolvem destreza.
+\subsubsection*{Corpo Fechado}
+O bárbaro possui vantagem em teste de resistência contra armadilhas, efeitos e magias que envolvem força.
+
+%ADICIONANDO O QUE FALTA PRO GUERREIRO%
+
+\subsection*{Passivas III}
+\subsubsection*{Manifestação do Caos}
+O bárbaro, mesmo com 0 ou menos de HP, não fica inconsciente. Entretando, a morte é inevitável.
+\subsubsection*{Cavaleiro Eterno}
+Quando o gladiador dedica um turno completo para descansar e tratar ferimentos, recupera 1d4-1 de HP.
+\subsubsection*{Cruzador da Fé}
+O paladino pode dedicar um turno completo para intercambiar seu HP e seu PM.
+
+\subsection*{Ativa VIII}
+\subsubsection*{Golpe Implacável}
+Na tentativa de quebrar o CA do oponente mais facilmente, o paladino ou bárbaro tem sucesso automático.
+\subsubsection*{Retaliação}
+Ao ser atacado sem receber dano, o paladino ou gladiador pode realizar um ataque ao alvo, como se aquele fosse seu turno.
+\subsubsection*{Investida fatal}
+Ao obter sucesso em quebrar o CA de um oponente, o gladiador ou bárbaro tem o valor de seu dado de arma dobrado.
+
+\end{document}
