@@ -22,3 +22,6 @@ Make a pull request and make clear what changes have been made and which bugs pe
 * LaTex and its libraries
 * Role Playing Game
 * Willingness to learn, research and develop (no laziness!)
+
+## Licenses
+* **MIT License** - [*See details*](./LICENSE.txt)
