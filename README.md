@@ -20,7 +20,7 @@ Faça um pull request e deixe claro quais alterações foram feitas e quais bugs
 
 ### Conhecimentos Desejáveis
 * LaTex e suas bibliotecas
-* RPG
+* RPG de Mesa
 
 ### Licenses
 * **MIT License** - [*Ver detalhes*](./LICENSE.txt)
