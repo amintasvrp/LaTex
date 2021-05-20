@@ -1,34 +1,9 @@
-# Order and Chaos
+<h1 align="center">
+  <img width=60 height=67.21 src="assets/icon.png" />
+  
+  Ordem e Caos 
+</h1>
 
-## English :uk:
-Repository for RPG sessions material in Brazilian Portuguese. This material approaches a universe of Medieval Fantasy based on the magnum opus of Stephen King: The Dark Tower.
-
-### Getting Started
-Clone the repository and open the file ```book.tex``` with a LaTex IDE.
-
-#### Prerequisites
-Have a LaTex IDE installed on the machine. 
-
-### Built With
-* [LaTex](https://www.latex-project.org/) - A document preparation system
-
-### Contributing
-Make a pull request and make clear what changes have been made and which bugs persist. Do not introduce bugs, be proactive!
-
-### Contributors
-* **Amintas Victor** - *Initial work* - [GitHub](https://github.com/amintasvrp)
-
- If you contributed with this project, your name will be placed here. Welcome to the hall of fame :)
-
-### Acknowledgments
-* LaTex and its libraries
-* Role Playing Game
-* Willingness to learn, research and develop (no laziness!)
-
-### Licenses
-* **MIT License** - [*See details*](./LICENSE.txt)
-
-## Brazilian Portuguese :brazil:
 Repositório para sessões de RPG em Português. Este material aborda um universo de fantasia medieval baseado na magnum opus de Stephen King: A Torre Negra.
 
 ### Começando
