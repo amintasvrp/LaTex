@@ -4,7 +4,7 @@
   Ordem e Caos 
 </h1>
 
-Repositório para sessões de RPG em Português. Este material aborda um universo de fantasia medieval baseado na magnum opus de Stephen King: A Torre Negra.
+Repositório para sessões de RPG em português. Este material aborda um universo de fantasia medieval baseado na magnum opus de Stephen King: A Torre Negra.
 
 ### Começando
 Clone o repositório e abra o arquivo ```book.tex``` com uma IDE LaTex.
