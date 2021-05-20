@@ -18,9 +18,5 @@ Ter uma IDE LaTex instalado na máquina.
 ### Contribuindo
 Faça um pull request e deixe claro quais alterações foram feitas e quais bugs persistem. Não introduza bugs, seja proativo!
 
-### Conhecimentos Desejáveis
-* LaTex e suas bibliotecas
-* RPG de Mesa
-
 ### Licenses
 * **MIT License** - [*Ver detalhes*](./LICENSE.txt)
