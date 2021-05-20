@@ -21,7 +21,6 @@ Faça um pull request e deixe claro quais alterações foram feitas e quais bugs
 ### Conhecimentos Desejáveis
 * LaTex e suas bibliotecas
 * RPG
-* Disposição para aprender, pesquisar e desenvolver (sem preguiça!)
 
 ### Licenses
 * **MIT License** - [*Ver detalhes*](./LICENSE.txt)
